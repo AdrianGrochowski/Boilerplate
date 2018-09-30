@@ -7,5 +7,7 @@ Template is prepared to use plain JavaScript, ES6, Jquery or Typescript. Further
 Here are basic examples of landing pages created using Boilerplate which took only minutes. 
 
 https://adriangrochowski.github.io/landing1/
+
 https://adriangrochowski.github.io/landing2/
+
 https://adriangrochowski.github.io/landing3/
