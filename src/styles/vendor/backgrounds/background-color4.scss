@@ -1,0 +1,77 @@
+@include media-breakpoint-up(xs) {
+  .powitalny,
+  .waski {
+      background: $background-blue !important;
+      background: -webkit-linear-gradient(to bottom, $background-blue, $background-lightblue) !important;
+      background: linear-gradient(to bottom, $background-blue, $background-lightblue) !important;
+      color: $background-white !important;
+  }
+  .podsumowanie {
+    background: $background-blue !important;
+    background: -webkit-linear-gradient(to top, $background-blue, $background-lightblue) !important;
+    background: linear-gradient(to top, $background-blue, $background-lightblue) !important;
+    color: $background-white !important;
+  }
+  .container-fluid:nth-of-type(odd) {
+      background: $background-white;
+      background: linear-gradient(90deg, $background-white 50%, $background-lightblue 100%);
+  }
+  .container-fluid:nth-of-type(even) {
+      background: $background-white;
+      background: linear-gradient(-90deg, $background-white 50%, $background-lightblue 100%);
+  }
+  .navbar-default {
+    #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+      background: $background-white;
+    }
+  }
+  .navbar-default.scrolled {
+    background:$background-blue;
+    border-bottom: 2px solid $background-blue !important;
+    #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+      background: $background-white;
+    }
+  }
+  .header-one {
+    background:$background-blue;
+    border-bottom: 2px solid $background-blue !important;
+  }
+  .navbar-collapsing {
+    background: rgba($background-blue, 0.8);
+  }
+  .logo {
+    background-image: url(../images/logoo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 40px;
+  }
+  .sklad {
+    color: black !important;
+  }
+  button {
+    border-color: #999999 !important;
+    color: black !important;
+  }
+  .open_add_to_cart {
+    border-color: #f8f9fa !important;
+    color: white !important;
+  }
+  .nav-link, .navbar-brand {
+    color: $background-white !important;
+  }
+}
+@include media-breakpoint-up(sm) {
+    .navbar-default.scrolled {
+      color:$background-blue !important;
+      .nav-link {
+          color:$background-white !important;
+      }
+    }
+}
+@include media-breakpoint-down(md) {
+    .navbar-collapse {
+      background: rgba($background-blue, 0.8);
+    }
+  }

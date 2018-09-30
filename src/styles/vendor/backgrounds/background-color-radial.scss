@@ -1,0 +1,17 @@
+.container-fluid:nth-of-type(odd) {
+    background-image: radial-gradient(ellipse farthest-corner at center center,$background-radial-odd 0%,$background-radial-odd-2 72.9%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,$background-radial-odd 0%,$background-radial-odd-2 72.9%);
+    color: $background-white;
+}
+.container-fluid:nth-of-type(even) {
+    background-color: $background-radial-even;
+    color: black !important;
+}
+.logo {
+  background-image: url(../images/aflofarm_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+}

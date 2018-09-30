@@ -1,0 +1,45 @@
+.container-fluid:nth-of-type(odd) {
+    background-image: radial-gradient(ellipse farthest-corner at center center,$background-pink 0%,$background-darkpink 72.9%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,$background-pink 0%,$background-darkpink 72.9%);
+    color: $background-white;
+}
+.container-fluid:nth-of-type(even) {
+    background-color: $background-white;
+    color: black !important;
+}
+.powitalny {
+  background: $background-rose !important;
+  background: -webkit-linear-gradient(to bottom, $background-rose, $background-white) !important;
+  background: linear-gradient(to bottom, $background-rose, $background-white) !important;
+}
+.podsumowanie {
+  background: $background-rose !important;
+  background: -webkit-linear-gradient(to top, $background-rose, $background-white) !important;
+  background: linear-gradient(to top, $background-rose, $background-white) !important;
+}
+.stopka {
+  background: $background-white !important;
+  background: -webkit-linear-gradient(to top, $background-white, $background-rose) !important;
+  background: linear-gradient(to top, $background-white, $background-rose) !important;
+  color: black !important;
+}
+.logo {
+  background-image: url(../images/logoo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+}
+.open_add_to_cart {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+.open_add_to_cart:hover {
+  background-color: #5a6268 !important;
+}
+.navbar-default.scrolled {
+  #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    background: $background-lightviolet;
+  }
+}

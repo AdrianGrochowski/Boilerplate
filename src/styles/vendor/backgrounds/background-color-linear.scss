@@ -1,0 +1,17 @@
+.container-fluid:nth-of-type(odd) {
+    background: $background-linear-odd;
+    background: -webkit-linear-gradient(to right, $background-linear-odd, $background-linear-odd-2);
+    background: linear-gradient(to right, $background-linear-odd, $background-linear-odd-2);
+    color: $background-white;
+}
+.container-fluid:nth-of-type(even) {
+    background-color: $background-linear-even;
+}
+.logo {
+  background-image: url(../images/aflofarm_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+}

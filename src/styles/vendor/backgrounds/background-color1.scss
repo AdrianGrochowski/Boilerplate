@@ -1,0 +1,60 @@
+.container-fluid:nth-of-type(odd) {
+    background: $background-violet;
+    background: -webkit-linear-gradient(to right, $background-pink, $background-violet);
+    background: linear-gradient(to right, $background-pink, $background-violet);
+    color: $background-white;
+}
+.container-fluid:nth-of-type(even) {
+    background-color: $background-gray;
+    color: black !important;
+}
+.container-fluid:nth-of-type(odd)::after {
+    border-top: 35px solid $background-lightviolet;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-top: 32px;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+}
+.container-fluid:nth-of-type(even)::after {
+    border-top: 35px solid $background-gray;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-top: 32px;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+}
+.stopka::after {
+    display: none;
+}
+.logo {
+  background-image: url(../images/logoo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+}
+.sklad::after {
+  display:none !important;
+}
+.open_add_to_cart {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+.open_add_to_cart:hover {
+  background-color: #5a6268 !important;
+}
+.navbar-default.scrolled {
+  #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    background: $background-lightviolet;
+  }
+}

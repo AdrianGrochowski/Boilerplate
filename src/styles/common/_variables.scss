@@ -1,0 +1,57 @@
+// Tutaj powinieneś zmodyfikować zmienne z Bootstrap
+// Oraz dopisać dodatkowe zmienne, których może używać Twoja aplikacja
+
+// ...
+$background-radial-odd: #ffd194;
+$background-radial-odd-2: #70e1f5;
+$background-radial-even: #70e1f5;
+
+$background-linear-odd: #ffd194;
+$background-linear-odd-2: #70e1f5;
+$background-linear-even: #ffffff;
+
+$background-violet:#7a1e63;
+$background-lightviolet: #b01876;
+$background-pink:#e51289;
+$background-lightpink:#ffb1cf;
+$background-darkpink:#aa144b;
+$background-gray:#e8ebe9;
+$background-darkblue:#1f4ea1;
+$background-blue:#0b519f;
+$background-lightblue:#29c3ee;
+$background-babyblue:#92e2f7;
+$background-rose:#de0456;
+$background-white:#ffffff;
+$background-progress:rgba(#e8e8e8, 0.84);
+
+.white {
+    color: $background-white;
+}
+.btn-round {
+    border-radius: 24px;
+}
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.scalex {
+ transform:scaleX(-1);
+}
+.fontawesome-mid {
+  font-size:20px;
+  color: #e51289;
+}
+.fontawesome_big {
+  font-size:50px;
+}
+.smooth-scroll {
+  cursor: pointer;
+  text-decoration: none;
+  color:black;
+}
+.smooth-scroll a:hover {
+  text-decoration: none;
+  color:black;
+}
